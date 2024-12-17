@@ -4,6 +4,7 @@ const stripe = require("stripe")("sk_test_51Q0LAZP88pAFOH9oca7jrvRAvsBAMCAlidiJ4
 
 const app = express();
 
+
 app.use(cors({
   origin: "http://localhost:3000", 
 }));
